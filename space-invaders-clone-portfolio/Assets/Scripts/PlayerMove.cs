@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public float speed;
+    public Vector2 direction;
 
     void Update()
     {
@@ -13,12 +14,20 @@ public class PlayerMove : MonoBehaviour
 
     private void Move()
     {
-        Vector2 _direction = Vector2.zero;
+        direction = speed * Time.deltaTime * direction.normalized;
+        transform.Translate(direction.x, direction.y, 0);
 
-        if(Input.GetKey(KeyCode.A)) _direction += Vector2.left;
-        if(Input.GetKey(KeyCode.D)) _direction += Vector2.right;
-
-        _direction = speed * Time.deltaTime * _direction.normalized;
-        transform.Translate(_direction.x, _direction.y, 0);
+        direction = Vector2.zero;
     }
+
+    public void LeftMove()
+    {
+        direction += Vector2.left;
+    }
+
+    public void RightMove()
+    {
+        direction += Vector2.right;
+    }
+
 }

@@ -359,7 +359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &661595148
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -450,6 +450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1658987133}
+  - component: {fileID: 1658987134}
   - component: {fileID: 1658987132}
   - component: {fileID: 1658987131}
   m_Layer: 0
@@ -524,6 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  direction: {x: 0, y: 0}
 --- !u!4 &1658987133
 Transform:
   m_ObjectHideFlags: 0
@@ -539,6 +541,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1658987134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658987130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23eee87f7de91d45aabd01c05478c96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMove: {fileID: 0}
 --- !u!1 &1676457105
 GameObject:
   m_ObjectHideFlags: 0
