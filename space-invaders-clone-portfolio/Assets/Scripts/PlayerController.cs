@@ -3,12 +3,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public PlayerMove playerMove;
-    public PlayerShotManager playerShotManager;
+    public ShotManager shotManager;
 
     void Start()
     {
         playerMove = GetComponent<PlayerMove>();
-        playerShotManager = GetComponent<PlayerShotManager>();
+        shotManager = GetComponent<ShotManager>();
     }
 
     void Update()
@@ -18,6 +18,6 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKey(KeyCode.D)) playerMove.RightMove();
         
         //Shot
-        if(Input.GetKeyDown(KeyCode.Space)) playerShotManager.Shot();
+        if(Input.GetKeyDown(KeyCode.Space)) shotManager.Shot();
     }
 }
