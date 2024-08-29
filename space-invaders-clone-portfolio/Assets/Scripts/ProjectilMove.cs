@@ -12,9 +12,8 @@ public class ProjectilMove : MonoBehaviour
 
     private void Move()
     {
-        direction = speed*Time.deltaTime*transform.up;
-        transform.Translate(direction.x, direction.y, 0);
+        transform.Translate(0, speed*Time.deltaTime, 0);
 
-        if(transform.position.y > 10) Destroy(gameObject);
+        if(transform.position.y > 10 || transform.position.y < -10) Destroy(gameObject);
     }
 }

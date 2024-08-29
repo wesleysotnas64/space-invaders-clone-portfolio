@@ -9,6 +9,6 @@ public class ShotManager : MonoBehaviour
     {
         GameObject projectil = Instantiate(projectilGameObject);
         projectil.transform.position = cannonTransform.position;
-        projectil.transform.up = direction;
+        projectil.transform.up = new Vector3(direction.x, direction.y, 0);
     }
 }
