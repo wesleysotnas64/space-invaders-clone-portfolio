@@ -18,6 +18,6 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKey(KeyCode.D)) playerMove.RightMove();
         
         //Shot
-        if(Input.GetKeyDown(KeyCode.Space)) shotManager.Shot();
+        if(Input.GetKeyDown(KeyCode.Space)) shotManager.Shot(Vector2.up);
     }
 }

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Barrier
+  - PlayerProjectil
+  - EnemyProjectil
   layers:
   - Default
   - TransparentFX
@@ -12,11 +15,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - PlayerProjectil
+  - EnemyProjectil
+  - Barrier
   - 
   - 
   - 

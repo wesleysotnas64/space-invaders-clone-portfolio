@@ -8,6 +8,12 @@ public class Enemy : MonoBehaviour
     {
         shotManager = GetComponent<ShotManager>();
     }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.P)) shotManager.Shot(Vector2.down);
+    }
+
     public void DestroyEnemy()
     {
         Destroy(gameObject);
