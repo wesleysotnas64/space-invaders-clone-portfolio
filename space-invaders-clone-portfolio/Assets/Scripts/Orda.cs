@@ -11,7 +11,14 @@ public class Orda : MonoBehaviour
 
     void Update()
     {
+        VerifyDestroyOrda();
     }
 
-    
+    private void VerifyDestroyOrda()
+    {
+        if(enemies.Count <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
