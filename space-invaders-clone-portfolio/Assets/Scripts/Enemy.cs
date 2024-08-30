@@ -3,6 +3,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int health;
+    public EnemyType type;
 
     public float shotTime;
     public float currentShotTime;
