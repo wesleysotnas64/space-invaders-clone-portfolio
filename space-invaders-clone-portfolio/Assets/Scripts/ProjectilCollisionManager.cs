@@ -10,7 +10,7 @@ public class ProjectilCollisionManager : MonoBehaviour
         switch (tag)
         {
             case "Enemy":
-                obj.GetComponent<Enemy>().DestroyEnemy();
+                obj.GetComponent<Enemy>().StrikeEnemy();
                 break;
 
             case "Barrier":

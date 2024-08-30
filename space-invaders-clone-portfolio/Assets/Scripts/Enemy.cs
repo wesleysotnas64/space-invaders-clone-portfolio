@@ -2,9 +2,12 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private ShotManager shotManager;
+    public int health;
+
     public float shotTime;
     public float currentShotTime;
+
+    private ShotManager shotManager;
 
     [Range(0, 100)]
     public int shotChance;
@@ -39,10 +42,19 @@ public class Enemy : MonoBehaviour
         shotManager.Shot(Vector2.down);
     }
 
-    public void DestroyEnemy()
+    private void DestroyEnemy()
     {
         GameObject ordaPai = transform.parent.gameObject;
         ordaPai.GetComponent<Orda>().enemies.Remove(gameObject);
         Destroy(gameObject);
+    }
+
+    public void StrikeEnemy()
+    {
+        health--;
+        if(health <= 0)
+        {
+            DestroyEnemy();
+        }
     }
 }
