@@ -5,10 +5,10 @@ public class EnemySensor : MonoBehaviour
     
     public float sideLimit;
 
-    public OrdaMove ordaMove;
+    private OrdaMove ordaMove;
     void Start()
     {
-        ordaMove = GameObject.Find("Orda").GetComponent<OrdaMove>();
+        ordaMove = transform.parent.gameObject.GetComponent<OrdaMove>();
     }
 
     void Update()
