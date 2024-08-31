@@ -8,6 +8,7 @@ TagManager:
   - Barrier
   - PlayerProjectil
   - EnemyProjectil
+  - Ufo
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - PlayerProjectil
   - EnemyProjectil
   - Barrier
-  - 
+  - Ufo
   - 
   - 
   - 

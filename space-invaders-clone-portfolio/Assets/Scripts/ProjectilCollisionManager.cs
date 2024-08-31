@@ -17,6 +17,9 @@ public class ProjectilCollisionManager : MonoBehaviour
                 obj.GetComponent<Barrier>().StrikeBarrier();
                 break;
             default:
+
+            case "Ufo":
+                obj.GetComponent<Ufo>().StrikeEnemy();
                 break;
         }
 
