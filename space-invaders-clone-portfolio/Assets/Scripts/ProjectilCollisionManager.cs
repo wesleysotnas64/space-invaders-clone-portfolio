@@ -16,11 +16,14 @@ public class ProjectilCollisionManager : MonoBehaviour
             case "Barrier":
                 obj.GetComponent<Barrier>().StrikeBarrier();
                 break;
-            default:
 
             case "Ufo":
                 obj.GetComponent<Ufo>().StrikeEnemy();
                 break;
+
+            default:
+                break;
+            
         }
 
         Destroy(gameObject);

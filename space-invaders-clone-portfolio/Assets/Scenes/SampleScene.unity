@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6186623913127037393, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
+      propertyPath: resistance
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6468795590413077322, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -396,6 +400,10 @@ PrefabInstance:
     - target: {fileID: 974039515833332642, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_Name
       value: Barrier (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186623913127037393, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
+      propertyPath: resistance
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6468795590413077322, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_LocalPosition.x
@@ -725,6 +733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6186623913127037393, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
+      propertyPath: resistance
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6468795590413077322, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -786,6 +798,10 @@ PrefabInstance:
     - target: {fileID: 974039515833332642, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_Name
       value: Barrier (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186623913127037393, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
+      propertyPath: resistance
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6468795590413077322, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_LocalPosition.x
@@ -910,6 +926,10 @@ PrefabInstance:
     - target: {fileID: 974039515833332642, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_Name
       value: Barrier (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186623913127037393, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
+      propertyPath: resistance
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6468795590413077322, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1927,6 +1947,10 @@ PrefabInstance:
     - target: {fileID: 974039515833332642, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_Name
       value: Barrier
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186623913127037393, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
+      propertyPath: resistance
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6468795590413077322, guid: db8a90359d71db1469bbaf019aa14438, type: 3}
       propertyPath: m_LocalPosition.x
